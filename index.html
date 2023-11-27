@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Kevin Wu</title>
+    <meta name="title" content="Kevin Wu - Web Developer" />
+    <meta
+      name="description"
+      content="A web developer in Taiwan.
+
+HTML, CSS, JavaScript, Node.js and Python."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.kevyourdev.com/" />
+    <meta property="og:title" content="Kevin Wu - Web Developer" />
+    <meta
+      property="og:description"
+      content="A web developer in Taiwan.
+
+HTML, CSS, JavaScript, Node.js and Python."
+    />
+    <meta property="og:image" content="/socialthumb.jpg" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,600&display=swap&text=Godmrningafteaven%2C"
+      rel="stylesheet"
+    />
+    <title>Kevin Wu</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="container text-center mt-5">
+        <div
+          id="image-carousel"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img
+                src="me1.jpg"
+                class="d-block mx-auto mb-4 rounded-circle img-fluid"
+                alt="Headshot of Kevin Wu"
+                width="250"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="me3.jpg"
+                class="d-block mx-auto mb-4 rounded-circle img-fluid"
+                alt="Headshot of Kevin Wu"
+                width="250"
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="me2.jpg" class=" d-block mx-auto mb-4 rounded-circle
+              img-fluid" alt="Headshot of Kevin Wu" width="250">
+            </div>
+            <div class="carousel-item active">
+              <img src="me.jpg" class=" d-block mx-auto mb-4 rounded-circle
+              img-fluid" alt="Headshot of Kevin Wu" width="250">
+            </div>
+          </div>
+        </div>
+
+        <h1 class="display-1" id="greeting">Hello,</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mt-4 mb-4">
+            I'm Kevin, a web developer in Taiwan. <br /><br />
+            <br />
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5">
+            <a
+              href="https://www.linkedin.com/in/kevin-wu-7b6a8b292/"
+              class="btn btn-outline-primary btn-lg px-4 me-sm-3"
+              target="_blank"
+              ><i class="bi bi-linkedin"></i> My LinkedIn Profile</a
+            >
+            <a
+              href="https://github.com/kevyourdev"
+              class="btn btn-outline-secondary btn-lg px-4"
+              target="_blank"
+              ><i class="bi-github"></i> My GitHub Profile</a
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer mt-auto text-center">
+      <div class="container">
+        <span class="text-dark"
+          >&copy <span id="year"></span> Kevin Wu.
+          <a
+            href=""
+            class="text-dark"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#privacyPolicy"
+            aria-controls="privacyPolicy"
+            >Privacy Policy.</a
+          ></span
+        >
+      </div>
+    </footer>
+
+    <div
+      class="offcanvas offcanvas-bottom"
+      tabindex="-1"
+      id="privacyPolicy"
+      aria-labelledby="privacyPolicyLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">
+          Privacy Policy
+        </h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body small">
+        <h6>Personal Data</h6>
+        While using this page, I will not ask you to provide any personal data
+        or collect any personal data from you.
+        <br />
+        <h6 class="mt-4">Usage Data</h6>
+        Usage Data is data collected automatically (for example, the duration of
+        a page visit). I do not collect any usage data.
+        <br />
+        <h6 class="mt-4">Cookies</h6>
+        Cookies are small pieces of data stored on a User’s device. I do not use
+        cookies or similar tracking technologies to track your activity.
+        <h6 class="mt-4">Location Data</h6>
+        I do not use or store information about your location.
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"
+  ></script>
+</html>
